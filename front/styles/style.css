@@ -14,7 +14,7 @@
 }
 
 main {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: aliceblue;
 }
@@ -38,8 +38,8 @@ main {
 }
 
 img {
-    height: 200px;
-    width: 300px;
+    max-height: 200px;
+    max-width: 300px;
 
 }
 
@@ -87,5 +87,11 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    main {
+        width: 55%;
+        margin: 0 auto;
+        background-color: aliceblue;
     }
 }
