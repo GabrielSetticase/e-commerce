@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --primario: (yellow);
+    --secundario: (black);
+    --terciario: (white);
+}
+
+.cuerpo {
+    background-color: lightblue;
+    width: 70%;
+    margin: 0 auto
+}
+
+.cabecera {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 5px;
+}
+
+.articulo {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.items {
+    width: 20%;
+    align-self: center;
+}
+
+.img {
+    width: 40%;
+}
+
+.img img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.pie {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.boton {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 10px;
+}
+
+.boton1 {
+    height: 70%;
+    width: 20%;
+}
+
+@media (max-width: 1024px) {
+    .articulo {
+        display: flex;
+
+    }
+
+    .items {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .articulo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .pie {
+        justify-content: center;
+    }
+
+    .boton {
+        justify-content: center;
+    }
+
+    .boton1 {
+        width: 55%;
+    }
+}
